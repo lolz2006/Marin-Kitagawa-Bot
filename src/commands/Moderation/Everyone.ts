@@ -29,18 +29,18 @@ export default class Command extends BaseCommand {
       await this.client.groupMetadata(M.from)
     ).participants;
     const stickers = [
-      "https://wallpapercave.com/wp/wp3144753.jpg",
-      "https://wallpapercave.com/wp/wp4782018.jpg",
-      "https://wallpaperaccess.com/full/1326836.jpg",
-      "https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
-      "https://data.whicdn.com/images/304776416/original.jpg",
-      "https://i.pinimg.com/564x/ca/e7/8a/cae78ad7f8e6459ad20bde350e2eb78b.jpg",
+      "https://telegra.ph/file/2c8baccc85b83b9e799f1.jpg",
+      "https://telegra.ph/file/c73fb4a0c60f9b1551e5a.jpg",
+      "https://telegra.ph/file/7f84b5313a636c439b137.jpg",
+      "https://telegra.ph/file/dee6608c9d19596084ca3.jpg",
+      "https://telegra.ph/file/5cf33cbc036e089611d86.jpg",
+      "https://telegra.ph/file/0e55b19e4d1ee747fdda1.jpg",
     ];
     const random = stickers[Math.floor(Math.random() * stickers.length)];
     if (flags.includes("--s") || flags.includes("--sticker")) {
       const sticker: any = await new Sticker(random, {
         pack: "READ QUOTED MESSAGE",
-        author: "🌟 Chitoge 🌟",
+        author: "🌟 MARIN 🌟",
         quality: 90,
         type: "default",
         categories: ["🎊"],
