@@ -20,8 +20,8 @@ export default class Command extends BaseCommand {
             'https://telegra.ph/file/76dfbe1b38a29a999e454.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
-            mimetype: Mimetype.gifs,
+        return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
+            mimetype: Mimetype.gif,
             caption: `Hey I'm CHEY, a learner/student & an upcoming developer in the future.
             
 📫𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
