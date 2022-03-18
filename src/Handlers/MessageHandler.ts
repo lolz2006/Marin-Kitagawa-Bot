@@ -94,7 +94,7 @@ export default class MessageHandler {
 		);
 			if (!command)
 				return void M.reply( await request.buffer(`https://telegra.ph/file/c534b659a643e8b5c8ddf.mp4`),
-        MessageType.gif,
+        MessageType.video,
                     undefined,
                     undefined,
                     `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
