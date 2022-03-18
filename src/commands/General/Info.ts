@@ -41,7 +41,7 @@ export default class Command extends BaseCommand {
 		}
 		this.run = async (M: typings.ISimplifiedMessage): Promise<void> => {
 			const chitoge =
-				"https://telegra.ph/file/fe3325fb5fa3da1de4c04.mp4","https://telegra.ph/file/a948b4731401492983fd9.mp4";
+				"https://telegra.ph/file/fe3325fb5fa3da1de4c04.mp4";
 			return void this.client.sendMessage(
 				M.from,
 				{ url: chitoge },
@@ -49,9 +49,9 @@ export default class Command extends BaseCommand {
 				{
 					quoted: M.WAMessage,
 					mimetype: Mimetype.gif,
-					caption: `━━━❰ 🅼🅰🆁🅸🅽 ❱━━━\n\n🔮 *Groups: ${
+					caption: `━━━❰ ⓂⒶⓇⒾⓃ ❱━━━\n\n🔮 *Groups: ${
 				chats.length
-					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🥰 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
+					}*\n\n🚦 *Uptime: ${uptime()}*\n\n😺 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
 				}
 			);
 		};
