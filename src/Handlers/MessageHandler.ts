@@ -29,7 +29,6 @@ export default class MessageHandler {
 				this.client.user.vname ||
 				this.client.user.short ||
 				"Chitoge";
-		
 		if (M.from.includes("status")) return void null;
 		const { args, groupMetadata, sender } = M;
 		if (M.chat === "dm" && this.client.isFeature("chatbot")) {
