@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             command: 'help',
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
-            usage: `${this.client.config.prefix}help (command_name)`,
+            usage: `${client.config.prefix}help (command_name)`,
             aliases: ['h', 'list', 'menu']
         })
     }
@@ -24,19 +24,15 @@ export default class Command extends BaseCommand {
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `Konnichiwa👋 ɪ ᴀᴍ 𝓜𝓪𝓻𝓲𝓷💖🖤!
-╭────────────
-│シ︎ Usᴇʀ Nᴀᴍᴇ: *${M.sender.username}*
-│シ︎ Bᴏᴛ Nᴀᴍᴇ: 𝕄𝔸ℝ𝕀ℕ 𝕜𝕒𝕥𝕒𝕘𝕒𝕨𝕒
-│シ︎ Dᴇᴠʟᴏᴘᴇʀ: chey-san❣️
-│シ︎ Pʀᴇғɪx: ${this.client.config.prefix}
-╰────────────┈マリン
-ɴᴏᴛᴇ📝: ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪssᴜᴇ ᴡɪᴛʜ ʙᴏᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ʙoᴛ ᴏᴡɴᴇʀ ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ ᴏʀ ᴍᴏᴅs
-ᴀɴᴅ ᴜsᴇ ${this.client.config.prefix}sᴜᴘᴘᴏʀᴛ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ!
 
-📜 Here is my Commad list...
+ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ!
 
-╚━❰〽️ G E N E R A L 〽️❱━╝
+ᴍʏ ᴘʀᴇғʀɪx ${this.client.config.prefix}
 
+🧾 Here are the listed commands...
+────────────────
+〽️G E N E R A L〽️
+────────────────
 🏮~ᴀᴅᴍɪɴs
 🌟Description: Tags all Admins 
 🧧Usage: ${this.client.config.prefix}Admins
@@ -84,9 +80,9 @@ export default class Command extends BaseCommand {
 🏮~info
 🌟Description: Will display the info of the bot
 🧧Usage: ${this.client.config.prefix}info
-
-╚━❰🧣 W E E B S 🧣❱━╝
-
+────────────────
+🧣W E E B S🧣
+────────────────
 🎐 ${this.client.config.prefix}ᴀɴɪᴍᴇ
 🎐 ${this.client.config.prefix}ᴀɴɪᴍᴇQᴜᴏᴛᴇ
 🎐 ${this.client.config.prefix}ᴀɴɪᴍᴇᴄʜᴀʀ
@@ -107,9 +103,9 @@ export default class Command extends BaseCommand {
 🎐 ${this.client.config.prefix}ᴡᴀʟʟᴘᴀᴘᴇʀ
 🎐 ${this.client.config.prefix}rpaper
 🎐 ${this.client.config.prefix}seggs [tag user]
-
-╚━❰🎯 F U N 🎯❱━╝ 
-
+────────────────
+🎯F U N🎯
+────────────────
 🏮~Qᴜᴏᴛᴇ
 🌟Discription: random quote
 🧧Usage: ${this.client.config.prefix}Quote
@@ -169,9 +165,9 @@ export default class Command extends BaseCommand {
 🏮~chess
 🌟Discription: chesssssssssssssss
 🧧Usage:${this.client.config.prefix}chess
-
-╚━❰💽 M E D I A 💽❱━╝
-
+────────────────
+💽M E D I A💽
+────────────────
 🏮~ɪɢ
 🌟Discription: Get the info of a user from ig
 🧧Usage: ${this.client.config.prefix}Ig
@@ -220,12 +216,12 @@ export default class Command extends BaseCommand {
 🌟Discription: Get the info of a user from ig
 🧧Usage:${this.client.config.prefix}iguser [name]
 
-🏮~play2
-🌟description: '📹 play a video with just search [Name]
-🧧Usage:${client.config.prefix}play2 [term]
-
-╚━❰🌈 U T I L S 🌈❱━╝
-
+🏮~ᴘʟᴀʏ2
+🌟Discription: 🎵 play video with just search term!
+🧧Usage: ${this.client.config.prefix}Play2
+────────────────
+╚━❰ U T I L S ❱━╝
+────────────────
 ㋛︎ ${this.client.config.prefix}ʙʟᴜʀ
 ㋛︎ ${this.client.config.prefix}ᴋɪᴛᴛᴇɴ
 ㋛︎ ${this.client.config.prefix}ꜱᴛɪᴄᴋᴇʀ
@@ -240,9 +236,9 @@ export default class Command extends BaseCommand {
 ㋛︎ ${this.client.config.prefix}toimg [(tag)[sticker]]
 ㋛︎ ${this.client.config.prefix}chey
 ㋛︎ ${this.client.config.prefix}doge
-
-╚━❰🍂 M O D E R A T I O N 🍂❱━╝
-
+────────────────
+⚜️M O D E R A T I O N⚜️
+────────────────
 🏮~ᴀᴄᴛɪᴠᴀᴛᴇ
 🌟Description: activate certain features on group-chats
 🧧Usage: ${this.client.config.prefix}Activate
@@ -286,9 +282,9 @@ export default class Command extends BaseCommand {
 🏮~ᴘᴘᴄᴏᴜᴘʟᴇ
 🌟Discription: send random ppcouple image
 🧧Usage: ${this.client.config.prefix}ppcouple
-
-╚━❰🍁 E D U C A T I V E 🍁❱━╝
-
+────────────────
+🍁E D U C A T I V E🍁
+────────────────
 🏮~ᴄᴀʟᴄᴜʟᴀᴛᴏʀ
 🌟Description: Calculates the given value
 🧧Usage: ${this.client.config.prefix}calculator
@@ -313,12 +309,13 @@ export default class Command extends BaseCommand {
 🌟Description: Gives you the definition of the given word
 🧧Usage: ${this.client.config.prefix}Urbandictionary
 
-🏮~ᴡᴇᴀᴛʜᴇʀ
+〽️~ᴡᴇᴀᴛʜᴇʀ
 🌟Description:
 🧧Usage: ${this.client.config.prefix}Weather
-
-╚━❰🔞 N S F W 🔞❱━╝
-
+────────────────
+🔞N S F W 🔞
+${this.client.config.prefix}Help8 [${this.client.config.prefix}h8]
+────────────────
 🍒 ${this.client.config.prefix}ᴀɴᴀʟ
 🍒 ${this.client.config.prefix}ʙʟᴏᴡᴊᴏʙ
 🍒 ${this.client.config.prefix}ɴꜱꜰᴡᴅᴏᴜᴊɪɴ
