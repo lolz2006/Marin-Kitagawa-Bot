@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
 
 📜 Here is my Commad list...
 
-╚━❰🍂 G E N E R A L 🍂❱━╝
+╚━❰〽️ G E N E R A L 〽️❱━╝
 
 🏮~ᴀᴅᴍɪɴs
 🌟Description: Tags all Admins 
@@ -108,7 +108,7 @@ export default class Command extends BaseCommand {
 🎐 ${this.client.config.prefix}rpaper
 🎐 ${this.client.config.prefix}seggs [tag user]
 
-╚━❰〽️ F U N 〽️❱━╝ 
+╚━❰🎯 F U N 🎯❱━╝ 
 
 🏮~Qᴜᴏᴛᴇ
 🌟Discription: random quote
@@ -170,7 +170,7 @@ export default class Command extends BaseCommand {
 🌟Discription: chesssssssssssssss
 🧧Usage:${this.client.config.prefix}chess
 
-╚━❰🧣 M E D I A 🧣❱━╝
+╚━❰💽 M E D I A 💽❱━╝
 
 🏮~ɪɢ
 🌟Discription: Get the info of a user from ig
@@ -219,6 +219,10 @@ export default class Command extends BaseCommand {
 🏮~iguser
 🌟Discription: Get the info of a user from ig
 🧧Usage:${this.client.config.prefix}iguser [name]
+
+🏮~play2
+🌟description: '📹 play a video with just search [Name]
+🧧Usage:${client.config.prefix}play2 [term]
 
 ╚━❰🌈 U T I L S 🌈❱━╝
 
@@ -309,7 +313,7 @@ export default class Command extends BaseCommand {
 🌟Description: Gives you the definition of the given word
 🧧Usage: ${this.client.config.prefix}Urbandictionary
 
-〽️~ᴡᴇᴀᴛʜᴇʀ
+🏮~ᴡᴇᴀᴛʜᴇʀ
 🌟Description:
 🧧Usage: ${this.client.config.prefix}Weather
 
