@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
 			command: "hi",
 			description: "Generally used to check if bot is Up",
 			category: "general",
-			usage: .customPrefix = /Hello|Heya|hlo/i,
+			usage: customPrefix = /Hello|Heya|hlo/i,
 			baseXp: 10,
 		});
 	}
