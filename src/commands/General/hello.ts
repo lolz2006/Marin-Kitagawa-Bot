@@ -12,9 +12,8 @@ export default class Command extends BaseCommand {
 			command: "hi",
 			description: "Generally used to check if bot is Up",
 			category: "general",
-			handler.customPrefix = /Hello|Heya|hlo/i
-handler.command = new RegExp
-
+			usage: `${client.config.prefix}hi`,
+			baseXp: 10,
 		});
 	}
 
