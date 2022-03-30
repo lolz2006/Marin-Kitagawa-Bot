@@ -314,7 +314,7 @@ export default class Command extends BaseCommand {
 🌟Description: Gives you the definition of the given word
 🧧Usage: ${this.client.config.prefix}Urbandictionary
 
-〽️~ᴡᴇᴀᴛʜᴇʀ
+🏮~ᴡᴇᴀᴛʜᴇʀ
 🌟Description:
 🧧Usage: ${this.client.config.prefix}Weather
 ────────────────
