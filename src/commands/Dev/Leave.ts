@@ -19,15 +19,11 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        const n = [
-            'https://telegra.ph/file/71674ab9a567ba8377775.mp4'
-        ]
-        let rin = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
-            mimetype: Mimetype.gif,
+    await M.reply( await request.buffer(`https://telegra.ph/file/8876a06900760d7c8c312.jpg`),
+        MessageType.image,
                     undefined,
                     undefined,
-                    `*Sayonara Mina* 😖👋\n`,
+                    `*Sayonara Mina* 👋\n`,
                     undefined
                     ).catch((reason: any) =>
                     M.reply(`✖ An error occurred. Please try again later.`))
