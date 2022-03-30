@@ -19,8 +19,12 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-    await M.reply( await request.buffer(`https://safebooru.org/samples/3069/sample_10a3b5dc359a1367eabca4a18ccb1235f2de51fd.jpg?3194721`),
-        MessageType.image,
+        const n = [
+            'https://telegra.ph/file/71674ab9a567ba8377775.mp4'
+        ]
+        let rin = n[Math.floor(Math.random() * n.length)]
+        return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
+            mimetype: Mimetype.gif,
                     undefined,
                     undefined,
                     `*Sayonara Mina* 😖👋\n`,
