@@ -5,7 +5,6 @@ import MessageHandler from "../../Handlers/MessageHandler";
 import BaseCommand from "../../lib/BaseCommand";
 import WAClient from "../../lib/WAClient";
 import { IParsedArgs, ISimplifiedMessage } from "../../typings";
-import request from "../../lib/request";
 import { MessageType } from "@adiwajshing/baileys";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
@@ -38,13 +37,13 @@ export default class Command extends BaseCommand {
 		if (amount > 20)
 			return void M.reply(`Do you want me to spam in this group?`);
 		const wall = new AnimeWallpaper();
-		const wallpaper = await wall.getAnimeWall2(term).catch(() => null);
+		const wallpaper = await wall.getAnimeWall4({ title: (term), type: "sfw", page: ((Math.random()*10)+2), })
 		if (!wallpaper)
 			return void (await M.reply(
 				`Couldn't find any matching term of wallpaper.`
 			));
 		for (let i = 0; i < amount; i++) {
-			const res = `*🌟 Here you go.*`;
+			const res = `*❣️ Here you go senpai.*`;
 			this.client.sendMessage(
 				M.from,
 				{ url: wallpaper[i].image },
