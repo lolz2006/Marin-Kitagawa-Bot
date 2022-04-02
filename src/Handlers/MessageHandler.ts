@@ -111,8 +111,6 @@ export default class MessageHandler {
 					state.reason ? ` for ${state.reason}` : ""
 				}`
 			);
-		if (!command.config?.dm && M.chat === "dm")
-			return void M.reply("This command can only be used in groups");
 		if (
 			command.config?.modsOnly &&
 			!this.client.config.mods?.includes(M.sender.jid)
