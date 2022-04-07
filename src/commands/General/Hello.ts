@@ -9,11 +9,11 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "alive",
+			command: "hello",
                         aliases: ["hello", "hii", "yo"],
 			description: "Generally used to check if bot is Up",
 			category: "general",
-			usage: `${client.config.prefix}alive`,
+			usage: `${client.config.prefix}hello`,
 			baseXp: 10,
 		});
 	}
