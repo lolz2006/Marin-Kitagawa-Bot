@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
 			command: "alive",
-                        aliases: ["hello", "hi", "yo"],
+                        aliases: ["hello", "hii", "yo"],
 			description: "Generally used to check if bot is Up",
 			category: "general",
 			usage: `${client.config.prefix}alive`,
@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://telegra.ph/file/5ab4ac77b1b92a97b6fca.mp4";
+			"https://telegra.ph/file/5ab4ac77b1b92a97b6fca.mp4","https://telegra.ph/file/e5f34a5d4427a247a0243.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
