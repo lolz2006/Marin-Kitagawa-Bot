@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://c.tenor.com/LXLRCmwR9KIAAAPo/kitagawa-marin-marin-kitagawa.mp4','https://c.tenor.com/dKz5wKx5YN0AAAPo/sono-bisque-doll-wa-koi-wo-suru-marin-kitagawa.mp4','https://c.tenor.com/uN_NusqVHCgAAAPo/marin-kitagawa-dress-up.mp4'
+            'https://telegra.ph/file/34660a7d90b10d59a389a.mp4','https://telegra.ph/file/acf629d43112ce93c6d6f.mp4','https://telegra.ph/file/fe3325fb5fa3da1de4c04.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
