@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             MessageType.video,
             Mimetype.gif,
             undefined,
-            `━━━❰ ©HEY-MARIN BOT ❱━━━\n\n🔮 *Groups: ${
+            `━━━❰ 𝓐Ⓚ𝓤𝓶𝕒-MARIN BOT ❱━━━\n\n🔮 *Groups: ${
 				chats.length
 					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🐼 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
                     undefined
