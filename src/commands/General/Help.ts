@@ -18,16 +18,16 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/36783a395d86adbf9fcd4.mp4','https://telegra.ph/file/fe3325fb5fa3da1de4c04.mp4','https://telegra.ph/file/29a367457d46721b59528.mp4','https://telegra.ph/file/02c8cb90510ad6fd1e02d.mp4','https://telegra.ph/file/0e633bf979e25ef592c10.mp4','https://telegra.ph/file/0fde71c91c0e8813b754f.mp4'
+            'https://telegra.ph/file/db24c38291c3b809c57ba.mp4','https://telegra.ph/file/29a367457d46721b59528.mp4','https://telegra.ph/file/02c8cb90510ad6fd1e02d.mp4'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Konnichiwa👋 ɪ ᴀᴍ 𝓜𝓪𝓻𝓲𝓷💖🖤
+            caption: `𝙺𝚘𝚗𝚗𝚒𝚌𝚑𝚒𝚠𝚊💖 𝓘 𝓐𝓜 𝙈𝘼𝙍𝙄𝙉😍💖
 ╭────────────
 │シ︎ Usᴇʀ Nᴀᴍᴇ: *${M.sender.username}*
 │シ︎ Bᴏᴛ Nᴀᴍᴇ: 𝙈𝘼𝙍𝙄𝙉 𝙆𝙄𝙏𝘼𝙂𝘼𝙒𝘼
-│シ︎ Dᴇᴠʟᴏᴘᴇʀ: 🅰🅺🆄🅼🅰
+│シ︎ Dᴇᴠʟᴏᴘᴇʀ: ♥𝓐Ⓚ𝓤𝓶𝕒♥
 │シ︎ Pʀᴇғɪx: ${this.client.config.prefix}
 ╰────────────┈マリン
 ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ!
@@ -343,7 +343,7 @@ ${this.client.config.prefix}Help8 [${this.client.config.prefix}h8]
 💦 If You Want More Stuff Type ${this.client.config.prefix}h8
 ───────────────
 ┌────────────┈
-│  🤍マリン🤍
+│  🤍𝓩𝓮𝓻𝓸🤍
 └────────────┈` }
         )
     }
