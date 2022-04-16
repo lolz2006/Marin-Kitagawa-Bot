@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
 			return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
 		};
 		const uptime = () => formatTime(process.uptime());
-		await M.reply(await request.buffer(`https://c.tenor.com/d5IEWVrGugkAAAPo/marin-kitagawa.mp4`),
+		await M.reply(await request.buffer(`https://telegra.ph/file/2a273f3ff694886c27de2.mp4`),
             MessageType.video,
             Mimetype.gif,
             undefined,
