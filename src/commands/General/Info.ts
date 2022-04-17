@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
             undefined,
             `━━━❰ 𝓐Ⓚ𝓤𝓶𝕒-MARIN BOT ❱━━━\n\n🔮 *Groups: ${
 				chats.length
-					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🐼 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
+					}*\n\n🚦 *Uptime: ${uptime()}*\n\n💖 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
                     undefined
                 ).catch((reason: any) =>
             M.reply(`✖ An error occurred. Please try again later.`))	
