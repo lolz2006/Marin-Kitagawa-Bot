@@ -1,4 +1,4 @@
-<h1 align="center">~ 💫 𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓶𝔂 𝓟𝓻𝓸𝓯𝓲𝓵𝓮✨ 💜
+<h1 align="center">~ 💫𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓖𝓸𝓳𝓸-𝓴𝓾𝓷✨ 💖
 <div align="center">
 <a href="https://github.com/Chey-san/"><img src="https://user-images.githubusercontent.com/97988840/156468495-58f662e6-959a-4121-87f7-8ea9cba47f03.gif"
 " alt="chitoge" border="0"></a>
