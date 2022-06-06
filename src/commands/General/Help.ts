@@ -26,8 +26,8 @@ export default class Command extends BaseCommand {
             caption: `𝙺𝚘𝚗𝚗𝚒𝚌𝚑𝚒𝚠𝚊💖𝙸'𝚖 𝙼𝚊𝚛𝚒𝚗💖
 ╭────────────
 │シ︎ Usᴇʀ Nᴀᴍᴇ: *${M.sender.username}*
-│シ︎ Bᴏᴛ Nᴀᴍᴇ: 𝐌𝐚𝐫𝐢𝐧 𝐤𝐢𝐭𝐚𝐠𝐚𝐰𝐚
-│シ︎ Dᴇᴠʟᴏᴘᴇʀ: 💖𝐀𝐊𝐔𝐌𝐀💖
+│シ︎ Bᴏᴛ Nᴀᴍᴇ: 𝐌𝐚𝐫𝐢𝐧 
+│シ︎ ᴏᴡɴᴇʀ: 💖Captain~Puffy💖
 │シ︎ Pʀᴇғɪx: ${this.client.config.prefix}
 ╰────────────┈マリン
 ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ!
@@ -243,7 +243,7 @@ export default class Command extends BaseCommand {
 ㋛︎ ${this.client.config.prefix}ᴄɪʀᴄʟᴇ
 ㋛︎ ${this.client.config.prefix}shorturl [Your url]
 ㋛︎ ${this.client.config.prefix}toimg [(tag)[sticker]]
-㋛︎ ${this.client.config.prefix}chey
+㋛︎ ${this.client.config.prefix}captain
 ㋛︎ ${this.client.config.prefix}doge
 ────────────────
 ⚜️M O D E R A T I O N⚜️
@@ -343,7 +343,7 @@ ${this.client.config.prefix}Help8 [${this.client.config.prefix}h8]
 💦 If You Want More Stuff Type ${this.client.config.prefix}h8
 ───────────────
 ┌────────────┈
-│  🤍𝓩𝓮𝓻𝓸🤍
+│  ᴛʜᴇɴ ꜱʜᴇ ꜱᴛᴇᴘᴘᴇᴅ ɪɴᴛᴏ ᴍʏ ʟɪꜰᴇ...
 └────────────┈` }
         )
     }
